@@ -11,6 +11,12 @@
 > Node.js 문서 - Node.js의 주요기능 설명하는 문서 <br> url 모듈 - 인터넷 주소를 다루는데 사용<br> Query String 모듈 - URL객체의 쿼리를 다루는데 사용<br> Util 모듈 - Node.js의 보조기능 <br> crypto 모듈 - 해시생성과 암호화<br> File System 모듈 - 파일을 다루는데 사용<br>
 
 ##4.1 os 모듈
+~~~js
+//모듈추출
+var os = require(os);
+
+//모듈 사용
+~~~
 
 ##4.2 url 모듈
 
