@@ -2,7 +2,7 @@
 
 -	문서의 사용 방법을 익히는 것이 가장 중요!
 
----
+----
 
 ? 무엇을 배울까 <br> - 기본모듈 사용법 <br> - [Node.js문서](https://nodejs.org/dist/latest-v4.x/docs/api/)를 보고 사용하는 방법 <br> - Node.js가 제공하는 동기와 비동기 방식의 차이를 fs 모듈로 알아보기
 
