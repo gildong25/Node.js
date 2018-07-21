@@ -1,6 +1,6 @@
-// ¸ğµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆ ì¶”ì¶œ
 var util = require('util');
 
-// ¸ğµâÀ» »ç¿ëÇÕ´Ï´Ù.
-var data = util.format('%d + %d = %d', 52, 273, 52 + 273);
-console.log(data);
+// ëª¨ë“ˆ ì‚¬ìš©
+var data = util.format('%d + %d = %d', 52, 273, 52 + 273); // ë¬¸ìì—´ì¡°í•©
+console.log(data); // ë¬¸ìì—´ì¶œë ¥

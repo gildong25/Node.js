@@ -1,10 +1,10 @@
-// ¸ðµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆ ì¶”ì¶œ
 var fs = require('fs');
 
-// º¯¼ö¸¦ ¼±¾ðÇÕ´Ï´Ù.
+// ë³€ìˆ˜ ì„ ì–¸
 var data = 'Hello World .. !';
 
-// ¸ðµâÀ» »ç¿ëÇÕ´Ï´Ù.
+// ëª¨ë“ˆ ì‚¬ìš©
 fs.writeFile('TextFileOtherWrite.txt', data, 'utf8', function (error) {
   console.log('WRITE FILE ASYNC COMPLETE');
 });

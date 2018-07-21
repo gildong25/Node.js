@@ -1,7 +1,7 @@
-// ¸ðµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆì¶”ì¶œ
 var fs = require('fs');
 
-// ¸ðµâÀ» »ç¿ëÇÕ´Ï´Ù.
+// ëª¨ë“ˆì‚¬ìš©
 fs.readFile('textfile.txt', 'utf8', function (error, data) {
   console.log(data);
 });

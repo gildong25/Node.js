@@ -1,5 +1,5 @@
-// ¸ğµâÀ» ÃßÃâÇÕ´Ï´Ù.
+//ëª¨ë“ˆì¶”ì¶œ
 var url = require('url');
 
-// ¸ğµâÀ» »ç¿ëÇÕ´Ï´Ù.
+// QueryStringëª¨ë“ˆì€ URLëª¨ë“ˆì˜ parse ë©”ì„œë“œì™€ ë™ì¼
 console.log(url.parse('http://www.hanbit.co.kr/store/books/look.php?p_code= B4250257160', true));

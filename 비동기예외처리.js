@@ -1,7 +1,7 @@
-// ¸ğµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆ ì¶”ì¶œ
 var fs = require('fs');
 
-// ÆÄÀÏÀ» ÀĞ½À´Ï´Ù.
+// íŒŒì¼ì½ê¸°
 fs.readFile('textfile.txt', 'utf8', function (error, data) {
   if (error) {
     console.log(error);
@@ -10,7 +10,7 @@ fs.readFile('textfile.txt', 'utf8', function (error, data) {
   }
 });
 
-// ÆÄÀÏÀ» ¾¹´Ï´Ù.
+// ì—†ìœ¼ë©´ íŒŒì¼ ì“°ê¸°.
 fs.writeFile('textfile.txt', 'Hello World .. !', 'utf8', function (error) {
   if (error) {
     console.log(error);

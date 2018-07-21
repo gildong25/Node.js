@@ -1,6 +1,6 @@
-// ¸ðµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆì¶”ì¶œ.
 var fs = require('fs');
 
-// ¸ðµâÀ» »ç¿ëÇÕ´Ï´Ù.
+// ëª¨ë“ˆì‚¬ìš©
 var text = fs.readFileSync('textfile.txt', 'utf8');
 console.log(text);

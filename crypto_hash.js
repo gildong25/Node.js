@@ -1,10 +1,10 @@
-// ¸ğµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆì¶”ì¶œ
 var crypto = require('crypto');
 
-// ÇØ½Ã¸¦ »ı¼ºÇÕ´Ï´Ù.
+// í•´ì‹œ ìƒì„±
 var shasum = crypto.createHash('sha256');
-shasum.update('crypto_hash');
+shasum.update('gildong');
 var output = shasum.digest('hex');
 
-// Ãâ·ÂÇÕ´Ï´Ù.
-console.log('crypto_hash:', output);
+// ê¸¸ë™ì´ í•´ì‹œí™” ì¶œë ¥
+console.log('gildong:', output);

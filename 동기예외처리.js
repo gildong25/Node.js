@@ -1,7 +1,7 @@
-// ¸ğµâÀ» ÃßÃâÇÕ´Ï´Ù.
+// ëª¨ë“ˆ ì¶”ì¶œ
 var fs = require('fs');
 
-// ÆÄÀÏÀ» ÀĞ½À´Ï´Ù.
+// íŒŒì¼ì½ê¸°
 try {
   var data = fs.readFileSync('textfile.txt', 'utf8');
   console.log(data);
@@ -9,7 +9,7 @@ try {
   console.log(e);
 }
 
-// ÆÄÀÏÀ» ¾¹´Ï´Ù.
+// ì—†ìœ¼ë©´ íŒŒì¼ì“°ê¸°
 try {
   fs.writeFileSync('textfile.txt', 'Hello World .. !', 'utf8');
   console.log('FILE WRITE COMPLETE');
