@@ -16,15 +16,25 @@
  |--|--| 
  
  |hostname()|운영체제| 
- |호스트이름 type()|운영체제 이름| 
+
+ |호스트이름 type()|운영체제 이름|
+
  |platform()|운영체제| 
+
  |플랫폼 arch()|아키텍쳐| 
+
  |release()|버전| 
+
  |uptime()|실행된 시간| 
+
  |loadavg()|로드 에버리지 정보를 담은 배열| 
+
  |totalmem()|시스템의 총메모리| 
+
  |freemem()|시스템의 사용가능한 메모리| 
+
  |cpus()|CPU의 정보를 담은 객체 리턴| 
+
  |networkInterfaces()|네트워크 인터페이스의 정보를 담은 배열|
 
 
