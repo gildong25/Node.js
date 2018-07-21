@@ -12,7 +12,7 @@
 
 ## 4.1 [os 모듈]( https://nodejs.org/dist/latest-v4.x/docs/api/os.html)
 
-> _os 모듈_로 기본적인 사용법을 익혀보자!
+> _os 모듈_ 로 기본적인 사용법을 익혀보자!
 
  |메서드이름|설명| 
  |--|--| 
@@ -31,7 +31,7 @@
 
 ## 4.2 [url 모듈](https://nodejs.org/dist/latest-v4.x/docs/api/url.html)
 
-> _url모듈_은 URL 분석 및 구문 분석을 담당한다.
+> _url모듈_ 은 URL 분석 및 구문 분석을 담당한다.
 parse() 메서드 자주 사용
 
 
@@ -45,7 +45,7 @@ resolve(from, to)|매개변수를 조합해 완전한 URL문자열을 생성해 
 
 ## 4.3 [Query String 모듈](https://nodejs.org/dist/latest-v4.x/docs/api/querystring.html)
 
-> _Query String모듈_은 URL 객체의 쿼리와 관련된 모듈이다.
+> _Query String모듈_ 은 URL 객체의 쿼리와 관련된 모듈이다.
 url 모듈에 기능이 통합되어있어 사용이 적다
 
 
@@ -56,7 +56,7 @@ parse (str [, sep] [, eq] [, options])|쿼리문자열을 쿼리객체로 변환
 
 ## 4.4 [util 모듈](https://nodejs.org/dist/latest-v4.x/docs/api/util.html)
 
-> _util모듈_은 Node.js의 보조 기능 모아놓은 모듈
+> _util모듈_ 은 Node.js의 보조 기능 모아놓은 모듈
 
 메서드이름|설명
 --|--
@@ -65,7 +65,7 @@ format(format[, ...])|매개변수로 입력한 문자열을 조합해 리턴합
 
 ## 4.5 [crypto 모듈](https://nodejs.org/dist/latest-v4.x/docs/api/crypto.html)
 
-> _crypto모듈_은 해시 생성과 암호화를 수행
+> _crypto모듈_ 은 해시 생성과 암호화를 수행
 
 ```
 ?해시
