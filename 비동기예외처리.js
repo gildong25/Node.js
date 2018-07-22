@@ -18,3 +18,15 @@ fs.writeFile('textfile.txt', 'Hello World .. !', 'utf8', function (error) {
     console.log('FILE WRITE COMPLETE');
   }
 });
+
+/*fs.writeFile('textfile.txt', 'Hello World .. !', 'utf8', => (error) {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('FILE WRITE COMPLETE');
+  }
+});
+*/
+
+
+
